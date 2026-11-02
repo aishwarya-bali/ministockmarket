@@ -1,7 +1,7 @@
 spring:
   application: 
     name: stock
-  datasource: 
+  datasource:  
     url: jdbc:mysql://gateway01.ap-northeast-1.prod.aws.tidbcloud.com:4000/stocks?sslMode=REQUIRED
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
